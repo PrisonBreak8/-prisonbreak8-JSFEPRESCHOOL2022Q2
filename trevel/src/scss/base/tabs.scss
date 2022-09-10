@@ -1,0 +1,37 @@
+.tabs {
+	// .tabs__navigation
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		row-gap: rem(15);
+		column-gap: rem(20);
+		margin-bottom: rem(40);
+	}
+	// .tabs__title
+	&__title {
+		border: 1px solid #eee;
+		padding: rem(10) rem(15);
+		border-radius: rem(5);
+		// ._tab-active
+		&._tab-active {
+			border: 1px solid #000;
+		}
+	}
+	// .tabs__content
+	&__content {
+		border: 1px solid #eee;
+		padding: rem(0) rem(0);
+	}
+	// .tabs__body
+	&__body {
+		display: flex;
+	}
+}
+
+.tab {
+	// .tab__block
+	&__block {
+	}
+}

@@ -1,0 +1,10 @@
+
+node_modules/
+dist/
+flsStartTemplate/
+Source/
+version.json
+undefined
+Info.txt
+**/*.zip
+**/*.rar
