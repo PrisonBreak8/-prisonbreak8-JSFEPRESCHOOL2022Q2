@@ -103,6 +103,31 @@ h6 {
   padding: 0 0.9375rem;
 }
 
+.tabs__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.9375rem;
+  column-gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.tabs__title {
+  border: 1px solid #eee;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 0.3125rem;
+}
+.tabs__title._tab-active {
+  border: 1px solid #000;
+}
+.tabs__content {
+  border: 1px solid #eee;
+  padding: 0rem 0rem;
+}
+.tabs__body {
+  display: flex;
+}
+
 [class*=-ibg] {
   position: relative;
 }
